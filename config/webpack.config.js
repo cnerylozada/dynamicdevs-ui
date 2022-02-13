@@ -5,8 +5,9 @@ module.exports = {
   entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "../dist"),
-    filename: "[name].[contenthash].js",
-    clean: true,
+    filename: "index.js",
+    libraryTarget: "umd",
+    library: "dynamicdevs",
   },
   mode: "production",
   resolve: {
@@ -17,9 +18,7 @@ module.exports = {
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: "ts-loader",
-        },
+        use: ["ts-loader"],
       },
     ],
   },
