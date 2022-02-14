@@ -1,6 +1,5 @@
 import React from "react";
-import "./styles.css";
 
 export const DDButton = ({ children }: { children: any }) => {
-  return <button className="myButton">{children}</button>;
+  return <button className="bg-yellow-400 text-blue-600">{children}</button>;
 };
