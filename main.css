@@ -19,3 +19,12 @@
 .small {
   @apply text-small-mobile md:text-small-desktop;
 }
+.light {
+  @apply font-light;
+}
+.normal {
+  @apply font-normal;
+}
+.bold {
+  @apply font-bold;
+}

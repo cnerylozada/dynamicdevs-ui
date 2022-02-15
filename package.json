@@ -1,6 +1,6 @@
 {
   "name": "dynamicdevs",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -15,6 +15,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.2",
     "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-controls": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",
     "@storybook/addon-links": "^6.4.19",
