@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { DDButton } from "./index";
 
 export default {
-  title: "Example/Button",
+  title: "Atoms/Button",
   component: DDButton,
 };
 

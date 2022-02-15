@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.headline {
+  @apply text-headline-mobile md:text-headline-desktop;
+}
+.sectionHeadline {
+  @apply text-sectionHeadline-mobile md:text-sectionHeadline-desktop;
+}
+.subHeadline {
+  @apply text-subHeadline-mobile md:text-subHeadline-desktop;
+}
+.paragraph {
+  @apply text-paragraph-mobile md:text-paragraph-desktop;
+}
+.small {
+  @apply text-small-mobile md:text-small-desktop;
+}
