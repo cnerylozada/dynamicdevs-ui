@@ -6,7 +6,7 @@ const sizesStyles = {
   sectionHeadline: "ddtext-size_sectionHeadline",
   subHeadline: "ddtext-size_subHeadline",
   paragraph: "ddtext-size_paragraph",
-  small: "ddtext-small",
+  small: "ddtext-size_small",
 };
 const weightStyles = {
   light: "ddtext-weight_light",
