@@ -13,3 +13,7 @@ export interface IDDText {
   className?: string;
   children: any;
 }
+
+export interface IDDButton {
+  children: any;
+}
