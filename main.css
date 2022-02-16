@@ -4,27 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
-.headline {
+.ddtext-size_headline {
   @apply text-headline-mobile md:text-headline-desktop;
 }
-.sectionHeadline {
+.ddtext-size_sectionHeadline {
   @apply text-sectionHeadline-mobile md:text-sectionHeadline-desktop;
 }
-.subHeadline {
+.ddtext-size_subHeadline {
   @apply text-subHeadline-mobile md:text-subHeadline-desktop;
 }
-.paragraph {
+.ddtext-size_paragraph {
   @apply text-paragraph-mobile md:text-paragraph-desktop;
 }
-.small {
+.ddtext-size_small {
   @apply text-small-mobile md:text-small-desktop;
 }
-.light {
+
+.ddtext-weight_light {
   @apply font-light;
 }
-.normal {
+.ddtext-weight_normal {
   @apply font-normal;
 }
-.bold {
+.ddtext-weight_bold {
   @apply font-bold;
 }

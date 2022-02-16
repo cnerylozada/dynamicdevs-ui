@@ -26,4 +26,8 @@ const Template: ComponentStory<typeof DDText> = (args: IDDText) => (
   </div>
 );
 export const Basic = Template.bind({});
-Basic.args = { size: "paragraph", weight: "normal", children: "Abcdefghi" };
+Basic.args = {
+  size: "paragraph",
+  weight: "normal",
+  children: "Abcdefghi",
+};

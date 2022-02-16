@@ -21,6 +21,16 @@ module.exports = {
         "small-desktop": "12px",
         "small-mobile": "12px",
       },
+      letterSpacing: {
+        "headline-mob": "5.94px",
+        "headline-des": "9.9px",
+
+        "sectionHeadline-mob": "6px",
+        "sectionHeadline-des": "7.5px",
+
+        "subHeadline-mob": "3.6px",
+        "subHeadline-des": "4px",
+      },
     },
   },
   plugins: [],

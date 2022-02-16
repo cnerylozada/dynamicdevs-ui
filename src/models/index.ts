@@ -1,13 +1,15 @@
-export type Size =
+export type TextSize =
   | "headline"
   | "sectionHeadline"
   | "subHeadline"
   | "paragraph"
   | "small";
-export type Weight = "light" | "normal" | "bold";
+export type TextWeight = "light" | "normal" | "bold";
 
 export interface IDDText {
-  size?: Size;
-  weight?: Weight;
+  size?: TextSize;
+  weight?: TextWeight;
+  caps?: boolean;
+  className?: string;
   children: any;
 }
