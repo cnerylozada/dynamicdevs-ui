@@ -1,2 +1,2 @@
-import "../main.css";
+import "../styles/global.css";
 export * from "./atoms";

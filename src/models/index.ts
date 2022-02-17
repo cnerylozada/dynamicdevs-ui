@@ -14,6 +14,11 @@ export interface IDDText {
   children: any;
 }
 
+export type ButtonSize = "normal" | "small";
 export interface IDDButton {
+  size?: ButtonSize;
+  disabled?: boolean;
+  onClick: any;
   children: any;
+  className?: string;
 }

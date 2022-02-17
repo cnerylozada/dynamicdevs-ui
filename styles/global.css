@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./palette.css";
+
+:root {
+  --primary: var(--l-primary);
+  --danger: var(--l-danger);
+  --green: var(--l-green);
+  --turquoise: var(--l-turquoise);
+  --blue: var(--l-blue);
+  --purple: var(--l-purple);
+  --lemon: var(--l-lemon);
+
+  --text: var(--l-text);
+
+  --bg1: var(--l-bg1);
+  --bg2: var(--l-bg2);
+  --bg3: var(--l-bg3);
+
+  --gray1: var(--l-gray1);
+  --gray2: var(--l-gray2);
+  --gray3: var(--l-gray3);
+}
+
+.darkPalette {
+  --primary: var(--d-primary);
+  --danger: var(--d-danger);
+  --green: var(--d-green);
+  --turquoise: var(--d-turquoise);
+  --blue: var(--d-blue);
+  --purple: var(--d-purple);
+  --lemon: var(--d-lemon);
+
+  --text: var(--d-text);
+
+  --bg1: var(--d-bg1);
+  --bg2: var(--d-bg2);
+  --bg3: var(--d-bg3);
+
+  --gray1: var(--d-gray1);
+  --gray2: var(--d-gray2);
+  --gray3: var(--d-gray3);
+}
+
+.ddtext-size_headline {
+  @apply text-headline-mobile md:text-headline-desktop;
+}
+.ddtext-size_sectionHeadline {
+  @apply text-sectionHeadline-mobile md:text-sectionHeadline-desktop;
+}
+.ddtext-size_subHeadline {
+  @apply text-subHeadline-mobile md:text-subHeadline-desktop;
+}
+.ddtext-size_paragraph {
+  @apply text-paragraph-mobile md:text-paragraph-desktop;
+}
+.ddtext-size_small {
+  @apply text-small-mobile md:text-small-desktop;
+}
+
+.ddtext-weight_light {
+  @apply font-light;
+}
+.ddtext-weight_normal {
+  @apply font-normal;
+}
+.ddtext-weight_bold {
+  @apply font-bold;
+}
