@@ -9,10 +9,10 @@ export const parameters = {
   },
 };
 
-export const decorators = [
-  (Story) => (
-    <div className="darkPalette">
-      <Story />
-    </div>
-  ),
-];
+// export const decorators = [
+//   (Story) => (
+//     <div className="darkPalette">
+//       <Story />
+//     </div>
+//   ),
+// ];
