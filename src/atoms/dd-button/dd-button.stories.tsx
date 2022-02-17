@@ -22,7 +22,7 @@ const Basic: ComponentStory<typeof DDButton> = (args) => (
 export const Default = Basic.bind({});
 Default.args = {
   children: "Button",
-  onClick: () => console.log("dd-button was clicked!"),
+  onClick: () => console.log("dd-button clicked!"),
 };
 Default.argTypes = {
   size: {
@@ -52,7 +52,7 @@ BasicProps.args = {
   children: "Button",
   size: "normal",
   disabled: false,
-  onClick: () => console.log("dd-button was clicked!"),
+  onClick: () => console.log("dd-button clicked!"),
 };
 BasicProps.argTypes = {
   className: {
